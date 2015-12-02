@@ -109,10 +109,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="NDk-cv-Gan" firstAttribute="centerY" secondItem="QS5-Rx-YEW" secondAttribute="centerY" constant="-191.5" id="AfP-oe-Oul"/>
-                            <constraint firstItem="zEq-FU-wV5" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="IIf-b4-g5t"/>
-                            <constraint firstItem="NDk-cv-Gan" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="PAD-jb-uB7"/>
-                            <constraint firstItem="zEq-FU-wV5" firstAttribute="centerY" secondItem="QS5-Rx-YEW" secondAttribute="centerY" constant="-229" id="TjE-zz-OvH"/>
+                            <constraint firstItem="NDk-cv-Gan" firstAttribute="top" secondItem="zEq-FU-wV5" secondAttribute="bottom" constant="8" symbolic="YES" id="3xB-V9-6OK"/>
+                            <constraint firstItem="zEq-FU-wV5" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="30" id="BJK-vm-f4v"/>
+                            <constraint firstItem="zEq-FU-wV5" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="TYN-1E-ShB"/>
+                            <constraint firstItem="zEq-FU-wV5" firstAttribute="centerX" secondItem="NDk-cv-Gan" secondAttribute="centerX" id="YT3-GG-6KG"/>
+                            <constraint firstItem="zEq-FU-wV5" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="30" id="iuB-Ie-Hr9"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Twitter" image="second" id="cPa-gy-q4n"/>
@@ -153,21 +154,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Nlz-fD-Y4H" firstAttribute="centerX" secondItem="53T-Fr-59B" secondAttribute="centerX" id="07a-cQ-lgc"/>
-                            <constraint firstItem="Nlz-fD-Y4H" firstAttribute="centerY" secondItem="53T-Fr-59B" secondAttribute="centerY" id="8Qz-SD-oIo"/>
-                            <constraint firstItem="Nlz-fD-Y4H" firstAttribute="top" secondItem="maK-8Y-zkf" secondAttribute="bottom" constant="50" id="Klt-mK-WG2"/>
-                            <constraint firstItem="9jF-kV-FFr" firstAttribute="centerX" secondItem="53T-Fr-59B" secondAttribute="centerX" id="XUq-X5-YOS"/>
-                            <constraint firstItem="9jF-kV-FFr" firstAttribute="centerY" secondItem="53T-Fr-59B" secondAttribute="centerY" constant="-191.5" id="idH-uS-UMO"/>
-                            <constraint firstItem="9jF-kV-FFr" firstAttribute="top" secondItem="Nlz-fD-Y4H" secondAttribute="bottom" constant="8" id="oIf-fI-tn1"/>
-                            <constraint firstItem="Nlz-fD-Y4H" firstAttribute="top" secondItem="maK-8Y-zkf" secondAttribute="bottom" constant="259" id="vqO-cq-cr1"/>
+                            <constraint firstItem="Nlz-fD-Y4H" firstAttribute="centerX" secondItem="9jF-kV-FFr" secondAttribute="centerX" id="DK5-hH-Aew"/>
+                            <constraint firstItem="Nlz-fD-Y4H" firstAttribute="top" secondItem="maK-8Y-zkf" secondAttribute="bottom" constant="30" id="ECy-3E-flS"/>
+                            <constraint firstItem="9jF-kV-FFr" firstAttribute="top" secondItem="Nlz-fD-Y4H" secondAttribute="bottom" constant="8" symbolic="YES" id="Ndp-fp-hiH"/>
+                            <constraint firstItem="Nlz-fD-Y4H" firstAttribute="centerX" secondItem="53T-Fr-59B" secondAttribute="centerX" id="Q4d-44-TPk"/>
+                            <constraint firstItem="Nlz-fD-Y4H" firstAttribute="top" secondItem="maK-8Y-zkf" secondAttribute="bottom" constant="30" id="rh4-PN-1FS"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="8Qz-SD-oIo"/>
-                                <exclude reference="Klt-mK-WG2"/>
-                                <exclude reference="vqO-cq-cr1"/>
-                            </mask>
-                        </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="設定" id="iqj-PI-Y7C"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
