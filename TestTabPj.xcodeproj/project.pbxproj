@@ -14,6 +14,7 @@
 		EE7AFBB61C0D7FF600EE91AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE7AFBB51C0D7FF600EE91AA /* Assets.xcassets */; };
 		EE7AFBB91C0D7FF600EE91AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7AFBB71C0D7FF600EE91AA /* LaunchScreen.storyboard */; };
 		EE7AFBC11C0EA50600EE91AA /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7AFBC01C0EA50600EE91AA /* ConfigViewController.swift */; };
+		EE9FF2711C11526B00F9A509 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE9FF2701C11526B00F9A509 /* FirstViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		EE7AFBB81C0D7FF600EE91AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE7AFBBA1C0D7FF600EE91AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE7AFBC01C0EA50600EE91AA /* ConfigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
+		EE9FF2701C11526B00F9A509 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				EE7AFBB71C0D7FF600EE91AA /* LaunchScreen.storyboard */,
 				EE7AFBBA1C0D7FF600EE91AA /* Info.plist */,
 				EE7AFBC01C0EA50600EE91AA /* ConfigViewController.swift */,
+				EE9FF2701C11526B00F9A509 /* FirstViewController.xib */,
 			);
 			path = TestTabPj;
 			sourceTree = "<group>";
@@ -132,6 +135,7 @@
 				EE7AFBB91C0D7FF600EE91AA /* LaunchScreen.storyboard in Resources */,
 				EE7AFBB61C0D7FF600EE91AA /* Assets.xcassets in Resources */,
 				EE7AFBB41C0D7FF600EE91AA /* Main.storyboard in Resources */,
+				EE9FF2711C11526B00F9A509 /* FirstViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +262,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TestTabPj/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = crhios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,6 +275,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TestTabPj/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = crhios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,6 +301,7 @@
 				EE7AFBBF1C0D7FF600EE91AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

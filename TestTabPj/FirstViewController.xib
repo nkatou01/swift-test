@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FirstViewController" customModule="TestTabPj" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="LSt-OI-Wjr" id="eeR-4L-dDd"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="LSt-OI-Wjr">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pdy-gl-hSk">
+                    <rect key="frame" x="143" y="50" width="89" height="42"/>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tu5-cB-x4x">
+                    <rect key="frame" x="88" y="100" width="200" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="4UT-iX-5F8"/>
+                        <constraint firstAttribute="height" constant="30" id="EhY-9t-gl3"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9by-Ss-c2t">
+                    <rect key="frame" x="8" y="546" width="360" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="RPc-Ax-6UP"/>
+                        <constraint firstAttribute="width" constant="360" id="izv-bF-Buo"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="oXU-3I-y0P"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="9by-Ss-c2t" secondAttribute="bottom" constant="91" id="4Im-Ay-aay"/>
+                <constraint firstItem="9by-Ss-c2t" firstAttribute="centerX" secondItem="LSt-OI-Wjr" secondAttribute="centerX" id="L9Q-ay-4ey"/>
+                <constraint firstItem="tu5-cB-x4x" firstAttribute="top" secondItem="Pdy-gl-hSk" secondAttribute="bottom" constant="8" id="QxL-V5-iqD"/>
+                <constraint firstItem="Pdy-gl-hSk" firstAttribute="centerX" secondItem="LSt-OI-Wjr" secondAttribute="centerX" id="Rjm-wx-MTB"/>
+                <constraint firstItem="Pdy-gl-hSk" firstAttribute="top" secondItem="LSt-OI-Wjr" secondAttribute="top" constant="50" id="gyP-yL-FWe"/>
+                <constraint firstItem="Pdy-gl-hSk" firstAttribute="top" secondItem="LSt-OI-Wjr" secondAttribute="top" constant="50" id="ktp-tN-jxf"/>
+                <constraint firstItem="tu5-cB-x4x" firstAttribute="centerX" secondItem="LSt-OI-Wjr" secondAttribute="centerX" id="wxD-1Z-OiX"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="ktp-tN-jxf"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="706.5" y="310.5"/>
+        </view>
+    </objects>
+</document>

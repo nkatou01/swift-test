@@ -10,6 +10,7 @@ import UIKit
 
 class FirstViewController: UIViewController, UITextFieldDelegate, UIScrollViewDelegate {
 
+    @IBOutlet var contentView: UIView!
     @IBOutlet weak var fbLabel: UILabel!
     @IBOutlet weak var fbSubLabel: UILabel!
     @IBOutlet weak var fbTxtField: UITextField!
@@ -17,12 +18,17 @@ class FirstViewController: UIViewController, UITextFieldDelegate, UIScrollViewDe
     
     let subLabelDefault: String = "Loaded by Facebook tab"
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
         fbLabel.text = "Facebook"
         fbSubLabel.text = subLabelDefault
+        
+        //AutoresizingMaskをオフにする
+        scrView.translatesAutoresizingMaskIntoConstraints = false
+        fbTxtField.translatesAutoresizingMaskIntoConstraints = false
         
         scrView.delegate = self
         fbTxtField.delegate = self
@@ -59,7 +65,7 @@ class FirstViewController: UIViewController, UITextFieldDelegate, UIScrollViewDe
     
     // fbTextFieldが編集された直後に呼ばれるデリゲードメソッド
     func textFieldDidBeginEditing(textField: UITextField) {
-        fbSubLabel.text = ""
+        fbSubLabel.text = textField.text
         
     }
     
